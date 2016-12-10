@@ -32,7 +32,9 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Some challenges I enountered while building the app:
+* After renaming a variable, the simulator would give a run-time error mentioning an undefined key. I had to control click the view controller to remove the associated outlet
+* I had trouble linking an action event between the segmented controller with a function. Ctrl-Click-Drag did not highlight a block statement. So I ended up creating a new method and explicitly call the method of choice
 
 ## License
 
